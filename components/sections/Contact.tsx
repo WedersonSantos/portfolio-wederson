@@ -1,0 +1,7 @@
+import { profile } from "@/data/profile";
+import { Icon } from "@/components/ui/Icon";
+import { hasResume } from "@/lib/resume";
+export function Contact() {
+  const available = hasResume();
+  return <section id="contato" className="section contact-section"><div className="container contact-grid"><div><h2>Vamos conversar<br /><span>sobre o próximo desafio.</span></h2><p className="section-intro">Desenvolvimento back-end, automação e dados. Entre em contato para conversar sobre projetos e oportunidades.</p><a className="contact-email" href={`mailto:${profile.email}`}>{profile.email}<Icon name="arrow" /></a><div className="contact-links"><a href={profile.github} target="_blank" rel="noopener noreferrer">GitHub <Icon name="arrow" /><span className="sr-only">(abre em nova aba)</span></a><a href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn <Icon name="arrow" /><span className="sr-only">(abre em nova aba)</span></a></div></div><div id="curriculo" className="resume-block"><h3>Currículo</h3><p>Experiência, formação e atuação técnica em um documento para consulta.</p>{available ? <a className="button button-primary" href="/curriculo-wederson-ferreira.pdf" download>Baixar currículo em PDF <Icon name="arrow" /></a> : <><button className="button resume-unavailable" disabled>PDF ainda não disponível</button><p className="resume-note">Enquanto isso, consulte a experiência acima ou solicite o currículo por e-mail.</p></>}</div></div></section>;
+}

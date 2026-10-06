@@ -1,0 +1,5 @@
+export const experience = [
+  { company: "Apollo Gestão de Sistemas", role: "Analista de Suporte Técnico", period: "06/2026 — 09/2026", description: "Investigação de falhas em ERP com consultas SQL, análise de inconsistências e validação de dados fiscais. Consolidação de documentação e estruturação de uma base de conhecimento em um projeto no ChatGPT.", tags: ["SQL", "ERP", "Documentação", "IA generativa"] },
+  { company: "Owl Mídia", role: "Desenvolvedor FullStack", period: "09/2022 — 06/2026", description: "Desenvolvimento e manutenção de aplicações com PHP, WordPress, JavaScript e bancos de dados. Back-end, integrações, APIs, automações e diagnóstico de falhas. Rotinas Python para processamento em lote de dados geoespaciais.", tags: ["PHP", "Python", "APIs", "Dados geoespaciais"] },
+  { company: "Up Pages", role: "Estágio · Web Designer", period: "05/2023 — 11/2023", description: "Implementação e manutenção de páginas WordPress a partir de layouts e projetos no Figma. Otimização de performance, Core Web Vitals, organização de informação e melhorias de UX/UI.", tags: ["WordPress", "Performance", "UX/UI"] },
+];

@@ -1,0 +1,5 @@
+import { experience } from "@/data/experience";
+
+export function Experience() {
+  return <section id="experiencia" className="section experience-section"><div className="container"><div className="section-header"><h2>Experiência que conecta<br /><span>desenvolvimento e operação.</span></h2><p>Da implementação à investigação de falhas, com atenção aos dados e ao funcionamento das aplicações.</p></div><ol className="experience-list">{experience.map(job => <li key={job.company}><div className="experience-date">{job.period}</div><div><h3>{job.role}</h3><p className="experience-company">{job.company}</p><p className="experience-description">{job.description}</p><ul className="project-tools" aria-label={`Áreas de atuação em ${job.company}`}>{job.tags.map(tag => <li key={tag}>{tag}</li>)}</ul></div></li>)}</ol><details className="experience-other"><summary>Outra experiência profissional</summary><p><strong>Algar (Whirlpool) · Atendente Telemarketing</strong><br />10/2024 — 01/2026</p><p>Responsabilidades ainda não detalhadas para publicação.</p></details></div></section>;
+}

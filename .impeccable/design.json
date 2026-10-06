@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T01:39:52.192Z",
+  "title": "Design System: Wederson Ferreira",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "background",
+        "canonical": "#0b1020"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "surface",
+        "canonical": "#111b2c"
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "surface raised",
+        "canonical": "#18253b"
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "foreground",
+        "canonical": "#f5f7fa"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "canonical": "#a7b0be"
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "accent",
+        "canonical": "#70a7ff"
+      },
+      "cyan": {
+        "role": "secondary",
+        "displayName": "cyan",
+        "canonical": "#67d8e4"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "line",
+        "canonical": "#2c3a50"
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "amber",
+        "canonical": "#f0bd75"
+      },
+      "violet": {
+        "role": "secondary",
+        "displayName": "violet",
+        "canonical": "#bea8f5"
+      },
+      "mint": {
+        "role": "secondary",
+        "displayName": "mint",
+        "canonical": "#7ddbb2"
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "accent hover",
+        "canonical": "#94bdff"
+      },
+      "backend-surface": {
+        "role": "neutral",
+        "displayName": "backend surface",
+        "canonical": "#172d49"
+      },
+      "backend-line": {
+        "role": "neutral",
+        "displayName": "backend line",
+        "canonical": "#355a88"
+      },
+      "amber-surface": {
+        "role": "neutral",
+        "displayName": "amber surface",
+        "canonical": "#302419"
+      },
+      "amber-line": {
+        "role": "neutral",
+        "displayName": "amber line",
+        "canonical": "#795c35"
+      },
+      "violet-surface": {
+        "role": "neutral",
+        "displayName": "violet surface",
+        "canonical": "#27203b"
+      },
+      "violet-line": {
+        "role": "neutral",
+        "displayName": "violet line",
+        "canonical": "#615080"
+      },
+      "cyan-surface": {
+        "role": "neutral",
+        "displayName": "cyan surface",
+        "canonical": "#123039"
+      },
+      "cyan-line": {
+        "role": "neutral",
+        "displayName": "cyan line",
+        "canonical": "#356772"
+      },
+      "mint-surface": {
+        "role": "neutral",
+        "displayName": "mint surface",
+        "canonical": "#14362b"
+      },
+      "mint-line": {
+        "role": "neutral",
+        "displayName": "mint line",
+        "canonical": "#396c56"
+      },
+      "ponto-fixo": {
+        "role": "secondary",
+        "displayName": "ponto fixo",
+        "canonical": "#a5b3ff"
+      },
+      "ponto-fixo-surface": {
+        "role": "neutral",
+        "displayName": "ponto fixo surface",
+        "canonical": "#212c4b"
+      },
+      "ponto-fixo-line": {
+        "role": "neutral",
+        "displayName": "ponto fixo line",
+        "canonical": "#52639a"
+      },
+      "technology-border": {
+        "role": "neutral",
+        "displayName": "technology border",
+        "canonical": "#344156"
+      },
+      "warning": {
+        "role": "tertiary",
+        "displayName": "warning",
+        "canonical": "#edc891"
+      },
+      "map-fill": {
+        "role": "neutral",
+        "displayName": "map fill",
+        "canonical": "#286a4c"
+      },
+      "map-grid": {
+        "role": "neutral",
+        "displayName": "map grid",
+        "canonical": "#252d39"
+      },
+      "map-pending": {
+        "role": "neutral",
+        "displayName": "map pending",
+        "canonical": "#111620"
+      },
+      "map-preview-muted": {
+        "role": "neutral",
+        "displayName": "map preview muted",
+        "canonical": "#bad5c8"
+      },
+      "map-source-surface": {
+        "role": "neutral",
+        "displayName": "map source surface",
+        "canonical": "#204735"
+      },
+      "map-source-text": {
+        "role": "neutral",
+        "displayName": "map source text",
+        "canonical": "#b1efcd"
+      },
+      "connector-muted": {
+        "role": "neutral",
+        "displayName": "connector muted",
+        "canonical": "#617188"
+      },
+      "process-surface": {
+        "role": "neutral",
+        "displayName": "process surface",
+        "canonical": "#201b35"
+      },
+      "process-muted": {
+        "role": "neutral",
+        "displayName": "process muted",
+        "canonical": "#c0b8d5"
+      },
+      "process-line": {
+        "role": "neutral",
+        "displayName": "process line",
+        "canonical": "#453959"
+      },
+      "process-hover": {
+        "role": "neutral",
+        "displayName": "process hover",
+        "canonical": "#302644"
+      },
+      "process-selected": {
+        "role": "neutral",
+        "displayName": "process selected",
+        "canonical": "#382b50"
+      },
+      "process-selected-text": {
+        "role": "neutral",
+        "displayName": "process selected text",
+        "canonical": "#f5f0ff"
+      },
+      "process-output": {
+        "role": "neutral",
+        "displayName": "process output",
+        "canonical": "#b1e8d2"
+      },
+      "contact-surface": {
+        "role": "neutral",
+        "displayName": "contact surface",
+        "canonical": "#f0eee7"
+      },
+      "contact-surface-raised": {
+        "role": "neutral",
+        "displayName": "contact surface raised",
+        "canonical": "#e5e5df"
+      },
+      "contact-foreground": {
+        "role": "neutral",
+        "displayName": "contact foreground",
+        "canonical": "#172434"
+      },
+      "contact-muted": {
+        "role": "neutral",
+        "displayName": "contact muted",
+        "canonical": "#526172"
+      },
+      "contact-accent": {
+        "role": "tertiary",
+        "displayName": "contact accent",
+        "canonical": "#23589c"
+      },
+      "contact-focus": {
+        "role": "tertiary",
+        "displayName": "contact focus",
+        "canonical": "#146b68"
+      },
+      "contact-line": {
+        "role": "neutral",
+        "displayName": "contact line",
+        "canonical": "#c6cbd0"
+      },
+      "contact-hover": {
+        "role": "neutral",
+        "displayName": "contact hover",
+        "canonical": "#19477f"
+      },
+      "contact-selection": {
+        "role": "neutral",
+        "displayName": "contact selection",
+        "canonical": "#c2d6ef"
+      },
+      "button-foreground": {
+        "role": "neutral",
+        "displayName": "button foreground",
+        "canonical": "#080a0f"
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "selection",
+        "canonical": "#294776"
+      },
+      "selection-text": {
+        "role": "neutral",
+        "displayName": "selection text",
+        "canonical": "#fff"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Posicionamento do hero."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de seção."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Título do detalhe de processo."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base da leitura."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Introdução do hero."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nome no hero."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Ações do hero."
+      },
+      "flow-title": {
+        "displayName": "Flow title",
+        "purpose": "Título do fluxo HTML."
+      },
+      "flow-detail": {
+        "displayName": "Flow detail",
+        "purpose": "Detalhe do fluxo HTML."
+      },
+      "step-number": {
+        "displayName": "Step number",
+        "purpose": "Números das etapas."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": "color 160ms ease, background-color 160ms ease, border-color 160ms ease",
+        "purpose": "Resposta de links e botões; removida com prefers-reduced-motion."
+      },
+      {
+        "name": "route-dash",
+        "value": "route-dash 5s linear infinite",
+        "purpose": "Traçado SVG com stroke-dashoffset final de -65."
+      },
+      {
+        "name": "packet",
+        "value": "packet 6.4s linear infinite",
+        "purpose": "Pacote SVG percorre offset-distance de 0% a 100%, com atrasos de 1.6s entre rotas."
+      },
+      {
+        "name": "mobile-packet",
+        "value": "mobile-packet 2.4s linear infinite",
+        "purpose": "Pacote HTML percorre translateY de 0 a 16px, com atrasos de 0.4s entre nós."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-hero",
+        "value": "1600px"
+      },
+      {
+        "name": "html-flow",
+        "value": "1100px"
+      },
+      {
+        "name": "stacked-hero",
+        "value": "800px"
+      },
+      {
+        "name": "mobile-menu",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ação principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Link principal para explorar os cases.",
+      "html": "<a class=\"ds-button-primary\" href=\"#projetos\">Explorar os cases <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:18px;min-height:48px;font-weight:560;font-size:13px;line-height:1.6;border-radius:6px;padding:13px 20px;text-decoration:none;font-family:var(--font-geist-sans, Geist), Arial, sans-serif;transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease;color:#080a0f;background:var(--accent,#70a7ff)}.ds-button-primary:hover{background:#94bdff}.ds-button-primary .ds-icon{width:17px;height:17px;flex-shrink:0}.ds-button-primary:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px;border-radius:3px;}@media(max-width:600px){.ds-button-primary{min-height:46px}}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+    },
+    {
+      "name": "Ação discreta",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Link secundário para o processo de trabalho.",
+      "html": "<a class=\"ds-button-quiet\" href=\"#processo\">Ver como trabalho</a>",
+      "css": ".ds-button-quiet{display:inline-flex;align-items:center;justify-content:center;gap:18px;min-height:48px;font-weight:560;font-size:13px;line-height:1.6;border-radius:6px;padding:13px 20px;text-decoration:none;font-family:var(--font-geist-sans, Geist), Arial, sans-serif;transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease;padding-inline:4px;color:var(--muted,#a7b0be);background:transparent}.ds-button-quiet:hover{color:var(--foreground,#f5f7fa)}.ds-button-quiet:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px;border-radius:3px;}@media(max-width:600px){.ds-button-quiet{min-height:38px}}@media(prefers-reduced-motion:reduce){.ds-button-quiet{transition:none}}"
+    },
+    {
+      "name": "Navegação",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Barra desktop com marca textual, âncoras e contato. A interação de menu móvel pertence ao componente React existente.",
+      "html": "<header class=\"ds-navigation\"><div class=\"ds-nav-inner\"><a class=\"ds-brand\" href=\"#inicio\" ><span class=\"ds-brand-mark\" aria-hidden=\"true\">w<span>.</span></span><span>Wederson Ferreira</span></a><nav class=\"ds-nav-links\" aria-label=\"Navegação principal\"><a href=\"#projetos\">Cases</a><a href=\"#sobre\">Sobre</a><a href=\"#processo\">Processo</a><a href=\"#stack\">Stack</a><a href=\"#experiencia\">Experiência</a><a class=\"ds-nav-contact\" href=\"#contato\">Vamos conversar <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></nav></div></header>",
+      "css": ".ds-navigation{background:var(--background,#0b1020);color:var(--foreground,#f5f7fa);border-bottom:1px solid var(--line,#2c3a50);font-family:var(--font-geist-sans, Geist), Arial, sans-serif;line-height:1.6}.ds-nav-inner{height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px}.ds-brand{display:flex;align-items:center;gap:14px;font-weight:550;font-size:14px;color:inherit;text-decoration:none}.ds-brand-mark{font-size:33px;font-weight:750;letter-spacing:-.04em;line-height:1}.ds-brand-mark span{color:var(--accent,#70a7ff)}.ds-nav-links{display:flex;align-items:center;gap:32px;font-size:14px}.ds-nav-links>a{color:var(--muted,#a7b0be);padding-block:10px;text-decoration:none;transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease;}.ds-nav-links>a:hover{color:var(--foreground,#f5f7fa)}.ds-nav-links .ds-nav-contact{margin-left:16px;display:flex;align-items:center;gap:14px;color:var(--foreground,#f5f7fa)}.ds-nav-contact .ds-icon{width:16px;height:16px}.ds-navigation a:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-nav-links>a{transition:none}}"
+    },
+    {
+      "name": "Tecnologia",
+      "kind": "chip",
+      "refersTo": "technology",
+      "description": "Etiqueta estática de tecnologia dentro de uma lista por função.",
+      "html": "<ul class=\"ds-tags\" aria-label=\"Tecnologias de web\"><li class=\"ds-technology\">TypeScript</li></ul>",
+      "css": ".ds-tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0;font-family:var(--font-geist-sans, Geist), Arial, sans-serif;line-height:1.6}.ds-technology{padding:7px 13px;border:1px solid var(--line,#2c3a50);border-radius:5px;font-size:12px;color:var(--muted,#a7b0be);background:transparent}@media(max-width:600px){.ds-technology{font-size:11px;padding:7px 11px}}"
+    },
+    {
+      "name": "Tecnologia prioritária",
+      "kind": "chip",
+      "refersTo": "technology-primary",
+      "description": "Etiqueta prioritária de back-end; outras funções usam seu próprio acento e superfície.",
+      "html": "<ul class=\"ds-tags-primary\" aria-label=\"Tecnologias de back-end\"><li class=\"ds-technology-primary\">Python</li><li class=\"ds-technology-primary\">PHP</li></ul>",
+      "css": ".ds-tags-primary{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0;font-family:var(--font-geist-sans, Geist), Arial, sans-serif;line-height:1.6}.ds-technology-primary{padding:7px 13px;border:1px solid color-mix(in srgb,var(--accent,#70a7ff) 40%,var(--background,#0b1020));border-radius:5px;font-size:12px;color:var(--accent,#70a7ff);background:#172d49}@media(max-width:600px){.ds-technology-primary{font-size:11px;padding:7px 11px}}"
+    },
+    {
+      "name": "Nó Back-end",
+      "kind": "card",
+      "refersTo": "flow-node-backend",
+      "description": "Contêiner do terceiro nó na representação HTML do fluxo.",
+      "html": "<div class=\"ds-flow-backend\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m8 6-6 6 6 6M16 6l6 6-6 6M14 3l-4 18\"/></svg><div><strong>Back-end</strong><span>APIs · regras · integrações</span></div></div>",
+      "css": ".ds-flow-backend{display:flex;align-items:center;gap:14px;padding:12px 16px;border:1px solid var(--accent,#70a7ff);border-radius:8px;background:#172d49;color:var(--foreground,#f5f7fa);font-family:var(--font-geist-sans, Geist), Arial, sans-serif;line-height:1.6}.ds-flow-backend .ds-icon{color:var(--accent,#70a7ff);width:18px;height:18px;flex-shrink:0}.ds-flow-backend strong{display:block;font-size:14px;font-weight:550}.ds-flow-backend div>span{display:block;color:var(--muted,#a7b0be);font-size:12px;margin-top:3px}"
+    },
+    {
+      "name": "Etapa do processo",
+      "kind": "button",
+      "refersTo": "process-step-selected",
+      "description": "Estado selecionado do botão de etapa; a troca de conteúdo é controlada pelo componente React.",
+      "html": "<button class=\"ds-process-step ds-selected\" type=\"button\" aria-pressed=\"true\" aria-controls=\"process-detail\"><span class=\"ds-step-number\">01</span><span>Entender</span><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-process-step{width:100%;padding:18px 14px 24px;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;background:transparent;color:#c0b8d5;display:flex;align-items:center;gap:12px;text-align:left;font-size:14px;font-family:var(--font-geist-sans, Geist), Arial, sans-serif;line-height:1.6;cursor:pointer;transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease;}.ds-process-step:hover{color:var(--foreground,#f5f7fa);background:#302644}.ds-process-step.ds-selected{color:#f5f0ff;border-bottom-color:var(--violet,#bea8f5)}.ds-step-number{font-family:var(--font-geist-mono, \"Geist Mono\"),monospace;font-size:11px;color:#c0b8d5}.ds-selected .ds-step-number{color:var(--violet,#bea8f5)}.ds-process-step .ds-icon{margin-left:auto;color:#c0b8d5;width:14px;height:14px}.ds-process-step:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px;border-radius:3px;}@media(max-width:1100px){.ds-process-step{gap:8px;padding-inline:8px;font-size:13px}}@media(max-width:800px){.ds-process-step{flex-direction:column;align-items:start;gap:8px}.ds-process-step .ds-icon{display:none}}@media(max-width:600px){.ds-process-step{flex-direction:row;align-items:center;padding:14px 12px;border-bottom:0;gap:18px;font-size:14px;margin:0;min-height:52px}.ds-process-step.ds-selected{background:#382b50}.ds-process-step .ds-icon{display:block;color:var(--violet,#bea8f5);opacity:0}.ds-process-step.ds-selected .ds-icon{opacity:1}}@media(prefers-reduced-motion:reduce){.ds-process-step{transition:none}}"
+    },
+    {
+      "name": "Retorno ao topo",
+      "kind": "button",
+      "description": "Link de retorno com ícone de seta e contorno discreto.",
+      "html": "<a class=\"ds-back-top\" href=\"#inicio\" aria-label=\"Voltar ao início\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 19V5M6 11l6-6 6 6\"/></svg></a>",
+      "css": ".ds-back-top{width:40px;height:40px;border:1px solid var(--line,#2c3a50);border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--muted,#a7b0be);text-decoration:none;transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease;}.ds-back-top:hover{color:var(--foreground,#f5f7fa);background:var(--surface-raised,#18253b)}.ds-back-top .ds-icon{width:16px;height:16px}.ds-back-top:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-back-top{transition:none}}"
+    },
+    {
+      "name": "Controle do fluxo",
+      "kind": "button",
+      "description": "Estado inicial do controle de pausa; a ação é implementada no componente TechnicalFlow.",
+      "html": "<button class=\"ds-flow-control\" type=\"button\" aria-pressed=\"false\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 5v14M16 5v14\"/></svg>Pausar fluxo</button>",
+      "css": ".ds-flow-control{display:flex;gap:6px;align-items:center;padding:4px 2px;margin-top:-4px;color:var(--muted,#a7b0be);background:transparent;border:0;font-size:11px;font-family:var(--font-geist-sans, Geist), Arial, sans-serif;line-height:1.6;cursor:pointer;transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease;}.ds-flow-control:hover{color:var(--foreground,#f5f7fa)}.ds-flow-control .ds-icon{width:12px;height:12px}.ds-flow-control:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px;border-radius:3px;}@media(max-width:600px){.ds-flow-control{font-size:10px}}@media(prefers-reduced-motion:reduce){.ds-flow-control{display:none}}"
+    },
+    {
+      "name": "Painel de demonstração fictícia",
+      "kind": "card",
+      "refersTo": "demo-panel",
+      "description": "Exemplo FarmGeo: corpo marinho, borda verde; cabeçalho do case usa superfície funcional.",
+      "html": "<section class=\"ds-demo\"><h2>Explore o fluxo.</h2><p>Demonstração fictícia · dados sintéticos.</p><p class=\"ds-result\">2 registros preparados · 1 para revisão.</p><p class=\"ds-warning\">Registro sem geometria separado para revisão.</p></section>",
+      "css": ".ds-demo{background:var(--surface,#111b2c);color:var(--foreground,#f5f7fa);border:1px solid #396c56;border-radius:8px;padding:36px;font-family:Geist,Arial,sans-serif}.ds-demo h2{font-size:30px;font-weight:550;letter-spacing:-.03em;line-height:1.15}.ds-demo p{font-size:13px;line-height:1.85}.ds-result{color:var(--cyan,#67d8e4)}.ds-warning{color:#edc891}@media(max-width:600px){.ds-demo{padding:24px 20px}}"
+    },
+    {
+      "name": "Seleção nativa da demo",
+      "kind": "input",
+      "refersTo": "demo-select",
+      "description": "Select com rótulo e foco, utilizado para perguntas, filtros e contexto de empresa.",
+      "html": "<label class=\"ds-label\" for=\"ds-context\">Contexto de empresa fictícia</label><select id=\"ds-context\" class=\"ds-select\"><option>Empresa fictícia A</option><option>Empresa fictícia B</option></select>",
+      "css": ".ds-label{display:block;color:var(--foreground,#f5f7fa);font:14px Geist,Arial,sans-serif;margin-bottom:12px}.ds-select{background:var(--surface-raised,#18253b);color:var(--foreground,#f5f7fa);border:1px solid #344156;border-radius:5px;padding:12px;min-height:48px;width:100%;font:14px Geist,Arial,sans-serif}.ds-select:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px}"
+    },
+    {
+      "name": "Currículo indisponível",
+      "kind": "button",
+      "refersTo": "resume-disabled",
+      "description": "Fallback quando abrir ou validar a assinatura do PDF falha; atualmente o PDF está disponível.",
+      "html": "<button class=\"ds-resume\" disabled>PDF ainda não disponível</button>",
+      "css": ".ds-resume{background:#e5e5df;color:#526172;border:1px solid #344156;border-radius:6px;min-height:48px;padding:13px 20px;font:560 13px Geist,Arial,sans-serif;cursor:default}"
+    },
+    {
+      "name": "Download do currículo",
+      "kind": "button",
+      "refersTo": "resume-download",
+      "description": "Link exibido no contato marfim quando hasResume confirma a assinatura PDF.",
+      "html": "<section class=\"ds-contact\"><a class=\"ds-resume-download\" href=\"/curriculo-wederson-ferreira.pdf\" download>Baixar currículo em PDF</a></section>",
+      "css": ".ds-contact{color-scheme:light;background:#f0eee7;color:#172434;padding:24px}.ds-resume-download{display:inline-flex;align-items:center;min-height:48px;padding:13px 20px;border-radius:6px;background:#23589c;color:#fff;font:560 13px/1.6 var(--font-geist-sans,Geist),Arial,sans-serif;text-decoration:none;transition:background-color 160ms ease}.ds-resume-download:hover{background:#19477f}.ds-resume-download:focus-visible{outline:2px solid #146b68;outline-offset:5px;border-radius:3px}@media(max-width:600px){.ds-resume-download{min-height:46px}}@media(prefers-reduced-motion:reduce){.ds-resume-download{transition:none}}"
+    },
+    {
+      "name": "Retrato na seção Sobre",
+      "kind": "custom",
+      "refersTo": "portrait-image",
+      "description": "Primeira fotografia fornecida; original quadrado, alt nominal, legenda e largura responsiva. Snippet HTML equivalente; implementação usa next/image.",
+      "html": "<figure class=\"ds-portrait\"><img src=\"/images/wederson-perfil.jpg\" alt=\"Retrato de Wederson Ferreira\" width=\"1280\" height=\"1280\" loading=\"lazy\" sizes=\"(max-width: 600px) 280px, 320px\"><figcaption>Wederson Ferreira</figcaption></figure>",
+      "css": ".ds-portrait{width:min(100%,320px);margin:32px 0 0;font-family:Geist,Arial,sans-serif}.ds-portrait img{display:block;width:100%;height:auto;border-radius:8px}.ds-portrait figcaption{margin-top:12px;color:var(--muted,#a7b0be);font-size:12px}@media(max-width:600px){.ds-portrait{width:min(100%,300px);margin-top:26px}}"
+    },
+    {
+      "name": "Captura completa do projeto",
+      "kind": "custom",
+      "refersTo": "project-image-window",
+      "description": "Mapa original do FarmGeo, rótulo factual, legenda e link para o original em nova aba. Usado no destaque e nos cases.",
+      "html": "<figure class=\"ds-capture\"><div class=\"ds-image-window\" style=\"aspect-ratio:960 / 609\"><img src=\"/images/farmgeo-mapa.png\" alt=\"Mapa FarmGeo com imagem de satélite, perímetros de imóveis, busca e painel de informações com identificadores mascarados.\" width=\"960\" height=\"609\" loading=\"lazy\" sizes=\"(max-width: 800px) calc(100vw - 40px), (max-width: 1100px) calc(100vw - 64px), 1240px\"></div><figcaption><span class=\"ds-visual-label\">Interface do projeto</span><p>Mapa com camadas geoespaciais e consulta de imóveis. Identificadores mascarados na captura fornecida.</p><a class=\"ds-visual-open\" href=\"/images/farmgeo-mapa.png\" target=\"_blank\" rel=\"noopener noreferrer\">Abrir imagem<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg><span class=\"ds-sr-only\">(abre em nova aba)</span></a></figcaption></figure>",
+      "css": ".ds-capture{min-width:0;margin:0;font-family:Geist,Arial,sans-serif}.ds-image-window{position:relative;overflow:hidden;border:1px solid var(--project-line,var(--line,#2c3a50));border-radius:8px;background:var(--button-foreground,#080a0f)}.ds-image-window img{display:block;width:100%;max-width:none;height:auto}.ds-image-window .ds-cropped{position:absolute}.ds-capture figcaption{margin-top:16px;color:var(--muted,#a7b0be);font-size:13px;line-height:1.7}.ds-visual-label{display:block;color:var(--project-color,var(--accent,#70a7ff));font-size:12px;font-weight:550}.ds-capture figcaption p{margin-top:6px}.ds-visual-open{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-top:8px;color:var(--foreground,#f5f7fa);font-size:13px}.ds-visual-open:hover{color:var(--project-color,var(--accent,#70a7ff))}.ds-visual-open:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px;border-radius:3px}.ds-visual-open svg{width:14px;height:14px;rotate:-45deg}.ds-capture-compact figcaption{margin-top:10px}.ds-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}@media(max-width:600px){.ds-capture figcaption{font-size:12px}}"
+    },
+    {
+      "name": "Captura compacta de demonstração",
+      "kind": "custom",
+      "refersTo": "project-image-window",
+      "description": "Variante compacta do índice: recorte CSS das coordenadas originais, rótulo factual; legenda e abertura do original reservadas à figura completa.",
+      "html": "<figure class=\"ds-capture ds-capture-compact\"><div class=\"ds-image-window\" style=\"aspect-ratio:1240 / 578\"><img class=\"ds-cropped\" src=\"/images/base-conhecimento-demonstracao.png\" alt=\"Demonstração fictícia de consulta técnica: pergunta sobre estoque, trecho de documento e resposta predefinida.\" width=\"1440\" height=\"2175\" loading=\"lazy\" sizes=\"(max-width: 800px) calc(100vw - 40px), (max-width: 1100px) 220px, 280px\" style=\"width:116.12903225806451%;left:-8.064516129032258%;top:-232.17993079584775%\"></div><figcaption><span class=\"ds-visual-label\">Demonstração fictícia</span></figcaption></figure>",
+      "css": ".ds-capture{min-width:0;margin:0;font-family:Geist,Arial,sans-serif}.ds-image-window{position:relative;overflow:hidden;border:1px solid var(--project-line,var(--line,#2c3a50));border-radius:8px;background:var(--button-foreground,#080a0f)}.ds-image-window img{display:block;width:100%;max-width:none;height:auto}.ds-image-window .ds-cropped{position:absolute}.ds-capture figcaption{margin-top:16px;color:var(--muted,#a7b0be);font-size:13px;line-height:1.7}.ds-visual-label{display:block;color:var(--project-color,var(--accent,#70a7ff));font-size:12px;font-weight:550}.ds-capture figcaption p{margin-top:6px}.ds-visual-open{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-top:8px;color:var(--foreground,#f5f7fa);font-size:13px}.ds-visual-open:hover{color:var(--project-color,var(--accent,#70a7ff))}.ds-visual-open:focus-visible{outline:2px solid var(--cyan,#67d8e4);outline-offset:5px;border-radius:3px}.ds-visual-open svg{width:14px;height:14px;rotate:-45deg}.ds-capture-compact figcaption{margin-top:10px}.ds-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}@media(max-width:600px){.ds-capture figcaption{font-size:12px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Do problema ao resultado",
+    "overview": "A direção “Do problema ao resultado” organiza uma interface de engenharia: escura, técnica, objetiva e profissional. Tipografia grande, espaço negativo e linhas discretas tornam a leitura prioritária; a base marinho recebe azul para back-end, âmbar para automação, verde para dados, violeta no processo e marfim no contato. Ciano preserva o foco e as integrações.\n\nA profundidade vem de superfícies próximas e bordas finas. O movimento explica a conexão entre etapas do fluxo, pode ser pausado e respeita redução de movimento. A aparência preserva o compromisso visual de PRODUCT.md e do contrato em app/layout.tsx: sem brilho, excesso de neon, terminais falsos, gradientes ou ícones tecnológicos sem contexto.",
+    "keyCharacteristics": [
+      "Fundo escuro e superfícies tonais próximas.",
+      "Geist para leitura e Geist Mono para números das etapas.",
+      "Acentos por função, etapas e case; contato em marfim.",
+      "Divisores finos, cantos discretos e espaço negativo.",
+      "Fluxo legível com ou sem animação."
+    ],
+    "rules": [],
+    "dos": [
+      "Do usar azul para back-end, âmbar para automação, verde para dados e violeta para o processo, preservando os rótulos.",
+      "Do manter ciano no foco global e pacotes; no contato marfim, usar os tokens locais de texto, ação, seleção e foco.",
+      "Do agrupar tecnologias por função e distinguir as principais com superfície e borda.",
+      "Do conservar títulos e detalhes do fluxo HTML em 14px e 12px.",
+      "Do preservar o fluxo estático, o foco visível e o respeito a prefers-reduced-motion.",
+      "Do preservar originais, alt específico, legenda factual e a distinção entre interface do projeto e demonstração fictícia."
+    ],
+    "donts": [
+      "Don't introduzir excesso de neon, brilho, gradientes ou terminais falsos.",
+      "Don't substituir as listas e divisores por uma grade indiscriminada de cards.",
+      "Don't usar ícones tecnológicos sem contexto ou tornar a compreensão dependente de movimento, cor ou hover.",
+      "Don't tratar capturas históricas das demos como prova da renderização atual ou de funcionalidade em produção."
+    ]
+  }
+}
