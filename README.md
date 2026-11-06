@@ -42,7 +42,7 @@ Todas as demos têm identificação visível de **demonstração fictícia** e d
 A home conserva seções predominantemente estáticas. O JavaScript interativo fica na navegação, fluxo, processo e demos dos cases. Os cinco cases são gerados durante o build.
 
 ## Currículo
-Coloque o PDF final em `public/curriculo-wederson-ferreira.pdf` e faça novo build/deploy. O link de download só aparece quando o arquivo começa com a assinatura PDF. Isso evita oferecer um download inexistente; não substitui a revisão do documento. Sem o arquivo, a interface informa a indisponibilidade e oferece contato por e-mail.
+Coloque o PDF final em `public/CV_Wederson_Ferreira.pdf` e faça novo build/deploy. O link de download só aparece quando o arquivo começa com a assinatura PDF. Isso evita oferecer um download inexistente; não substitui a revisão do documento. Sem o arquivo, a interface informa a indisponibilidade e oferece contato por e-mail.
 
 ## SEO e publicação
 Configure `NEXT_PUBLIC_SITE_URL` com a URL pública HTTPS do portfólio, sem caminho, após criar o projeto. Use `.env.example` como referência. Faça novo deploy ao alterar a variável.

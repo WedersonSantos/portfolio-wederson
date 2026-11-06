@@ -91,3 +91,7 @@ HTML semântico, navegação por teclado, foco visível, contraste adequado, nom
 ## Implementation Status
 
 Atualização em 05/10/2026: home completa, cinco páginas de cases e demos fictícias implementadas. Capturas reais desktop/mobile dos cases e seções estão em docs/screenshots, substituindo a ausência de evidência visual registrada no diagnóstico inicial. Instalação limpa, build, lint, mobile, controles por teclado e auditorias automatizadas foram verificados; detalhes e limites em docs/VALIDACAO-FINAL.md. GitHub Actions e configuração Vercel preparados, sem publicação remota. PDF final, URL pública e informações não confirmadas continuam pendentes.
+
+
+## Atualização visual — 06/11/2026
+A pedido do usuário, a direção visual anterior passa a ser substituída pela adaptação de https://caiovinicios.vercel.app/: preto quente, cobre e marfim, Bebas Neue, Space Grotesk e Cormorant Garamond, retrato na abertura e navegação por caminhos. Esta solicitação substitui os compromissos estéticos anteriores de marinho/Geist/diagrama na abertura; mantém todos os compromissos de veracidade, privacidade e distinção entre trabalho real, conceito e demonstração. Os cases técnicos e o posicionamento Back-end, Automação e Dados permanecem. Versão revisada localmente; publicação autorizada pelo usuário em 06/11/2026. O PDF atualizado diretamente na main pelo usuário é preservado em public/CV_Wederson_Ferreira.pdf.

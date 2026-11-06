@@ -26,11 +26,11 @@ export function Navigation() {
   return (
     <header className="navigation" ref={headerRef}>
       <div className="nav-inner container">
-        <Link className="brand" href="/#inicio" onClick={() => setOpen(false)} ><span className="brand-mark" aria-hidden="true">w<span>.</span></span><span>Wederson Ferreira</span></Link>
+        <Link className="brand" href="/#inicio" onClick={() => setOpen(false)} ><span className="editorial-brand">Wederson <b>Ferreira</b></span></Link>
         <button ref={buttonRef} className="menu-toggle" type="button" aria-expanded={open} aria-controls="navegacao-principal" aria-label={open ? "Fechar navegação" : "Abrir navegação"} onClick={() => setOpen(!open)}><Icon name={open ? "close" : "menu"} /></button>
         <nav id="navegacao-principal" className={`nav-links ${open ? "is-open" : ""}`} aria-label="Navegação principal">
           {navigation.map((item) => <Link key={item.href} href={`/${item.href}`} onClick={() => setOpen(false)}>{item.label}</Link>)}
-          <Link className="nav-contact" href="/#contato" onClick={() => setOpen(false)}>Vamos conversar <Icon name="arrow" /></Link>
+          <Link className="nav-contact" href="/#contato" onClick={() => setOpen(false)}>Fale comigo <Icon name="arrow" /></Link>
         </nav>
       </div>
     </header>
