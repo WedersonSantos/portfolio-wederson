@@ -2,19 +2,23 @@ export type Project = {
   slug: string; name: string; category: string; summary: string; status: string;
   context: string; problem: string; decision: string; contribution: string[];
   result: string; limits: string; stack: string[]; flow: string[]; url?: string;
+  validation?: string[]; learning?: string; outcome?: string;
 };
 
 export const projects: Project[] = [
   {
     slug: "farmgeo", name: "FarmGeo", category: "Automação · dados geoespaciais",
-    summary: "Do arquivo geoespacial ao dado preparado para uso em mapas.", status: "Experiência profissional · Owl Mídia",
-    context: "Arquivos geoespaciais precisavam ser preparados para ferramentas GIS e aplicações de mapas interativos.",
-    problem: "Formatos e atributos diferentes exigiam conferência e preparação antes de utilizar os dados. Incompatibilidades dificultavam o processamento em lote.",
-    decision: "Organizar a preparação em etapas: leitura, verificação, padronização e saída. Separar os registros que precisam de revisão ajuda a investigar falhas sem perder o contexto do lote.",
-    contribution: ["Desenvolvimento de rotinas em Python para processamento em lote e padronização de dados geoespaciais.", "Preparação de arquivos KML, Shapefile e GeoJSON para ferramentas GIS e aplicações de mapas.", "Investigação de incompatibilidades e apoio à organização dos dados utilizados no fluxo de mapas interativos."],
-    result: "As rotinas apoiaram a preparação dos dados e reduziram o trabalho manual de tratamento dos arquivos. O resultado é apresentado de forma qualitativa, sem métricas não documentadas.",
-    limits: "A demonstração abaixo representa o raciocínio do fluxo. Executa apenas transformações de registros fictícios no navegador; não lê arquivos GIS nem executa o código Python utilizado no trabalho.",
-    stack: ["Python", "KML", "Shapefile", "GeoJSON", "GIS"], flow: ["Arquivos", "Validação", "Padronização", "Dados preparados", "Mapa"],
+    summary: "Integração com API governamental e conversão de dados geoespaciais com verificação de geometria e atributos.", status: "Experiência profissional · Owl Mídia",
+    outcome: "De cerca de 3 dias para 3 horas de processamento.",
+    context: "A empresa precisava obter dados de uma API governamental e disponibilizá-los em Shapefile e KML para ferramentas GIS e mapas interativos. Minha atuação começou na homologação da API e na configuração do ambiente cloud para baixar os dados.",
+    problem: "A rotina inicial processava os arquivos individualmente e levava aproximadamente três dias. Além disso, as primeiras conversões preservavam o desenho do mapa, mas perdiam atributos como proprietário do terreno e cultura plantada. A aparência correta escondia dados incompletos.",
+    decision: "Manter o Shapefile como etapa intermediária, pois ele também era utilizado pela empresa, em vez de converter diretamente para KML. Ajustar a lógica e substituir a biblioteca de conversão para preservar os atributos. Para melhorar a escala, reorganizar a execução em lotes com multithreading e multiprocessamento.",
+    contribution: ["Homologação da API governamental e configuração do ambiente cloud para obtenção dos arquivos.", "Desenvolvimento de scripts Python para leitura de dados binários, conversão para Shapefile e geração de KML.", "Implementação de comparações entre o conteúdo original e as saídas, utilizando também informações em JSON como referência.", "Correção da perda de atributos e otimização do processamento com lotes, multithreading e multiprocessamento."],
+    validation: ["Comparação do conteúdo binário de origem com o Shapefile gerado, incluindo as informações geográficas e os atributos de texto.", "Nova verificação de integridade após a conversão para KML, complementada pela comparação visual dos mapas e pelo acompanhamento dos logs.", "Reprocessamento após a correção do script e a troca de biblioteca para conferir a presença dos atributos de proprietário e plantio na saída final."],
+    result: "O tempo de execução passou de aproximadamente três dias para três horas, disponibilizando os arquivos mais rapidamente para visualização e consulta territorial. A conversão passou a preservar também os atributos que se perdiam nas versões iniciais. Os tempos são aproximados e foram observados durante o projeto.",
+    learning: "Um mapa visualmente correto pode estar incompleto. A validação precisa conferir geometria e atributos em cada transformação; melhorar o desempenho não dispensa verificar a integridade da saída.",
+    limits: "Esta simulação usa registros fictícios no navegador. Não acessa a API governamental, não converte arquivos GIS e não executa o pipeline Python ou seu paralelismo. As verificações do projeto não constituem uma medição formal de precisão geográfica.",
+    stack: ["Python", "APIs", "Cloud", "Shapefile", "KML", "JSON", "GIS"], flow: ["API e binários", "Shapefile", "Conferência", "KML", "Nova conferência"],
   },
   {
     slug: "base-conhecimento", name: "Base de conhecimento técnico", category: "Documentação · IA generativa",
@@ -23,7 +27,9 @@ export const projects: Project[] = [
     problem: "Localizar uma orientação e relacioná-la ao problema investigado exigia consultar materiais dispersos e conferir o contexto de cada procedimento.",
     decision: "Consolidar e organizar o conteúdo, usando um projeto no ChatGPT como apoio à consulta. Orientar as respostas pela documentação e manter a validação técnica humana.",
     contribution: ["Consolidação de tutoriais, procedimentos e registros técnicos.", "Estruturação de uma base de conhecimento em um projeto no ChatGPT.", "Organização do contexto de consulta para apoiar a investigação de falhas no ERP."],
-    result: "A documentação passou a ter uma estrutura de consulta mais organizada para apoiar o trabalho técnico. Não há medição confirmada de redução de tempo ou taxa de acerto.",
+    result: "A documentação passou a ser consultada em uma base unificada, facilitando o acesso aos procedimentos e registros técnicos durante o atendimento e a investigação de problemas no ERP.",
+    validation: ["O trabalho teve uso como apoio à consulta técnica; não houve avaliação formal de precisão das respostas nem medição de tempo economizado.", "A captura do projeto mostra uma consulta com referências à documentação e uma sugestão de SQL. Ela não comprova a execução ou a correção da consulta sugerida."],
+    learning: "Organizar o conhecimento facilita a consulta, mas não garante a correção de uma resposta gerada por IA. O conteúdo precisa ser conferido no contexto do sistema antes de orientar uma ação.",
     limits: "A demo utiliza respostas previamente escritas e documentos fictícios. Não consulta uma LLM. O trabalho relatado utilizou um projeto no ChatGPT; não é apresentado como RAG, fine-tuning ou agente autônomo.",
     stack: ["ChatGPT", "Documentação técnica", "SQL", "ERP"], flow: ["Documentos", "Organização", "Contexto", "Consulta assistida", "Validação humana"],
   },
@@ -33,8 +39,10 @@ export const projects: Project[] = [
     context: "Atuação na plataforma Achei Araxá, com foco na experiência de acesso e organização das informações.",
     problem: "Uma plataforma com diferentes serviços precisa facilitar a localização de informações e orientar a navegação com clareza.",
     decision: "Trabalhar a estrutura da interface, a organização do conteúdo e a usabilidade dos caminhos de acesso, incluindo a experiência de chat.",
-    contribution: ["Atuação no desenvolvimento web e na organização da interface da plataforma.", "Contribuição para usabilidade, acessibilidade e estrutura das informações.", "Atuação na experiência de chat, sem atribuir capacidades de IA não confirmadas."],
-    result: "O case apresenta a contribuição na organização da plataforma e na experiência de uso. O site público pode ser consultado como referência, sem atribuir todo o produto a um único profissional.",
+    contribution: ["Desenvolvimento web e estruturação da interface e da navegação da plataforma.", "Organização das informações com atenção à usabilidade e à acessibilidade.", "Desenvolvimento da interface do chat da assistente virtual e integração dessa interação ao site."],
+    result: "A plataforma passou a contar com a interface do chat integrada ao ambiente web. Minha contribuição foi na interface e na experiência de interação, dentro de um trabalho de equipe.",
+    validation: ["A entrega relatada foi a interface do chat incorporada ao site. Não há métricas registradas de uso, satisfação ou redução de atendimentos.", "O site público serve como referência do produto e pode ter evoluído após minha participação."],
+    learning: "Descrever uma entrega exige delimitar responsabilidades: implementar a interface de uma assistente não significa desenvolver seu motor de IA ou toda a plataforma.",
     limits: "Os serviços e as respostas abaixo são fictícios. A demo é uma representação didática e não reproduz telas ou funcionalidades atuais do site público. A stack específica do projeto não foi confirmada.",
     stack: ["Interfaces web", "Arquitetura de informação", "Usabilidade"], flow: ["Necessidade", "Categoria", "Serviço", "Orientação", "Próximo passo"], url: "https://achei.araxa.mg.gov.br/",
   },

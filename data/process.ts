@@ -30,8 +30,8 @@ export const processSteps = [
   {
     title: "Validar",
     headline: "Conferir o resultado no contexto real.",
-    description: "Testar os fluxos, conferir os dados e verificar o comportamento esperado. Revisar falhas e limites para avaliar se a solução atende ao problema.",
-    inputs: ["Testes e cenários", "Integridade dos dados", "Resultado esperado"],
+    description: "Comparar entradas e saídas, acompanhar logs e conferir o comportamento esperado. No FarmGeo, a comparação entre formatos revelou atributos perdidos mesmo quando o mapa parecia correto.",
+    inputs: ["Comparação entre entradas e saídas", "Logs e integridade dos dados", "Reprocessamento após correções"],
     output: "Um resultado conferido e limites conhecidos.",
   },
 ] as const;

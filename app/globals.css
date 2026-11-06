@@ -517,3 +517,10 @@ summary:focus-visible, select:focus-visible { outline: 2px solid var(--cyan); ou
   .project-visual figcaption { font-size: 12px; }
   .case-header + .project-visual { margin-top: 32px; }
 }
+
+/* Evidências dos cases: resultado em contexto, no mesmo sistema tipográfico. */
+.project-outcome { margin-block: 20px; max-width: 48ch; color: var(--foreground); font-size: 21px; font-weight: 550; line-height: 1.5; text-wrap: pretty; }
+.about-practice { margin-top: 28px; max-width: 65ch; color: var(--muted); font-size: 15px; line-height: 1.85; }
+.case-narrative section { min-width: 0; }
+.case-narrative p, .case-narrative li { max-width: 70ch; }
+@media (max-width: 600px) { .project-outcome { font-size: 17px; } }
