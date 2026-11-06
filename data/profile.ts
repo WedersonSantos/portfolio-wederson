@@ -1,6 +1,7 @@
 export const profile = {
   name: "Wederson Ferreira",
   email: "wedersonsantos2004@gmail.com",
+  whatsapp: "https://wa.me/5534991064161",
   github: "https://github.com/WedersonSantos",
   linkedin: "https://www.linkedin.com/in/wederson-ferreira-dos-santos-157229247/",
   location: "Uberlândia · MG, Brasil",

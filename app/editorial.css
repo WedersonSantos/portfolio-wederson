@@ -90,6 +90,7 @@ h1, h2, h3 { font-family: var(--font-display), sans-serif; font-weight: 400; let
 .contact-section .section-intro { font-family: var(--font-editorial), serif; font-size: 24px; font-style: italic; max-width: 550px; margin: 30px auto 0; }
 .contact-email { display: inline-flex; justify-content: center; font-size: clamp(15px, 2vw, 22px); overflow-wrap: anywhere; margin-top: 30px; }
 .contact-links { justify-content: center; }
+.contact-whatsapp { margin-top: 28px; }
 .resume-block { border-top: 1px solid var(--line); border-left: 0; padding: 40px 0 0; }
 .resume-block h3 { font-size: 36px; }
 .resume-block p { margin-inline: auto; max-width: 440px; }
