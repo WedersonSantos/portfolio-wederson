@@ -57,4 +57,7 @@ Não foi realizada uma nova auditoria WCAG completa ou medição de performance 
 - [x] Revisão local concluída; publicação autorizada posteriormente pelo usuário.
 - [x] Alterações remotas do currículo incorporadas sem modificar o PDF; botão e verificação apontam para CV_Wederson_Ferreira.pdf.
 
+## Ajuste de publicação
+O primeiro build no GitHub falhou no carregador Google de Cormorant Garamond. A mesma família foi incluída localmente, em variantes normal e itálica, com licença OFL do repositório oficial google/fonts. Isso preserva o desenho tipográfico e elimina a etapa problemática do carregador remoto.
+
 final result: passed

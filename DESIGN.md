@@ -40,7 +40,7 @@ Capturas e comparação em `.qa/reference-redesign/`. Adaptação para o conteú
 - Contato centralizado, título grande, e-mail, redes e currículo acessíveis.
 
 ## Tipografia e espaçamento
-As três famílias da referência são carregadas por `next/font/google` e servidas localmente pela aplicação. Geist Mono permanece apenas para código e medidas existentes.
+Bebas Neue e Space Grotesk são carregadas por `next/font/google`; Cormorant Garamond usa `next/font/local`, com arquivos oficiais e licença OFL em `app/fonts`, para evitar uma falha do carregador Google no build remoto. Todas são servidas localmente pela aplicação. Geist Mono permanece apenas para código e medidas existentes.
 Hero: aproximadamente 9vw em desktop e 18vw no celular, com limites para preservar a leitura. Títulos de seção de 48 a 80px. Corpo entre 14 e 17px; texto editorial entre 23 e 29px. Texto de case com line-height 1.85 e medida limitada a 70ch.
 Contêiner máximo de 1240px; margens laterais adaptadas de 56 a 24px. Seções de 112px, 80px em tablet e 64px em celular estreito.
 

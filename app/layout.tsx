@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, Space_Grotesk, Cormorant_Garamond, Geist_Mono } from "next/font/google";
+import { Bebas_Neue, Space_Grotesk, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import "./editorial.css";
 import { siteUrl } from "@/lib/site";
@@ -14,7 +15,15 @@ FORM: Adaptação da referência fornecida; conteúdo, fotografia e rotas perten
 
 const editorialDisplay = Bebas_Neue({ variable: "--font-display", subsets: ["latin"], weight: "400", display: "swap" });
 const editorialSans = Space_Grotesk({ variable: "--font-geist-sans", subsets: ["latin"], display: "swap" });
-const editorialSerif = Cormorant_Garamond({ variable: "--font-editorial", subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], display: "swap" });
+const editorialSerif = localFont({
+  variable: "--font-editorial",
+  src: [
+    { path: "./fonts/CormorantGaramond-Regular.ttf", weight: "300 700", style: "normal" },
+    { path: "./fonts/CormorantGaramond-Italic.ttf", weight: "300 700", style: "italic" },
+  ],
+  display: "swap",
+  fallback: ["Georgia", "serif"],
+});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
